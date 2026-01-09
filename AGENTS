@@ -1,0 +1,44 @@
+# Claude Agent Instructions — UseWell Android Enforcement Client
+
+You are operating inside the UseWell Android Enforcement Client (AEC).
+
+This is an enforcement surface, not a product surface.
+
+Your primary objective is to REMOVE capability, not add it.
+
+## Absolute Constraints
+
+You must NOT introduce or expand:
+- User-facing configuration screens
+- Dashboards, analytics views, or reports
+- Local decision-making or overrides
+- Monitoring, alerts, or behavioural interpretation
+- Notifications, nudges, or reassurance mechanisms
+
+You must NEVER add:
+- Access to messages, photos, videos, files, contacts
+- Access to URLs, browsing history, or search queries
+- Keystroke logging or screen inspection
+- Any form of surveillance or inference
+
+## Authority Model
+
+- The Admin Web Platform is the sole authority.
+- This Android client enforces policies only.
+- This client may report:
+  - device health (binary)
+  - tamper or integrity events (binary)
+  - aggregated usage totals (non-replayable)
+
+This client must not approve, decide, interpret, or explain.
+
+## Design Bias
+
+- Prefer deletion over addition
+- Prefer invisibility over usability
+- Prefer resilience over elegance
+- Prefer boring over clever
+
+If a change increases interaction, reassurance, or control surface area, it violates the project intent.
+
+When in doubt: delete.
