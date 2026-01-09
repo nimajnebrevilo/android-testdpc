@@ -1,3 +1,18 @@
+# UseWell Android Enforcement Client (AEC)
+
+IMPORTANT: This repository is used as the basis for the UseWell Android Enforcement Client.
+
+This client is an enforcement surface, not a product surface.
+
+It exists solely to enforce device policies defined by the UseWell admin platform.
+
+The Android client must not evolve into a secondary control surface under any circumstances.
+
+All modifications to this repository must respect this constraint.
+
+
+
+
 Test Device Policy Control (Test DPC) App
 =========================================
 
